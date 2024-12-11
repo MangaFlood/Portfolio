@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  @font-face {
+    font-family: 'Sniglet-Regular';
+    src: url('./fonts/Sniglet Regular.ttf');
+  }
+  @font-face {
+    font-family: 'LeagueGothic';
+    src: url('./fonts/LeagueGothic-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'LeagueSpartan-Black';
+    src: url('./fonts/LeagueSpartan-Black.ttf');
+  }
+  @font-face {
+    font-family: 'LeagueSpartan-Bold';
+    src: url('./fonts/LeagueSpartan-Bold.ttf');
+  }
+  @font-face {
+    font-family: 'LeagueSpartan-Medium';
+    src: url('./fonts/LeagueSpartan-Medium.ttf');
+  }
+}
